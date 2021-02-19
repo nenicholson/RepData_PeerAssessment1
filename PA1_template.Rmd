@@ -2,7 +2,7 @@
 title: "Reproducible Research Course Project 1"
 author: "Natasha Nicholson"
 date: "18/02/2021"
-output: html_document
+keep_md: true
 ---
 
 ```{r setup, include=FALSE}
