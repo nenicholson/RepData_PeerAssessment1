@@ -48,7 +48,7 @@ time <- plot(day_average, type='l', xlab='5 Minute Interval', ylab='Average step
              main='Average Steps Per Time of Day')
 ```
 
-![](Course-project-1_files/figure-html/avg-1.png)<!-- -->
+![](RepData_PeerAssessment1/figure-html/avg-1.png)<!-- -->
 
 ## 5. The 5-minute interval that, on average, contains the maximum number of steps:
 
@@ -81,7 +81,7 @@ complete_hist <- hist(rep(comp_total_steps$date, comp_total_steps$steps_per_day)
              xlab='Date', ylab='Total steps', main='Total Steps Taken Per Day')
 ```
 
-![](Course-project-1_files/figure-html/completehist-1.png)<!-- -->
+![](RepData_PeerAssessment1/figure-html/completehist-1.png)<!-- -->
 
 ```r
 comp_mean <- mean(comp_total_steps$steps_per_day)
@@ -108,4 +108,4 @@ weekend_plot <- plot(weekend_intervals, type='l', xlab='5 minute interval', ylab
                      main='Average Steps Per 5 Min Interval on Weekends')
 ```
 
-![](Course-project-1_files/figure-html/panel-1.png)<!-- -->
+![](RepData_PeerAssessment1/figure-html/panel-1.png)<!-- -->
