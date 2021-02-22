@@ -25,7 +25,7 @@ hist <- hist(rep(total_steps$date, total_steps$steps_per_day), freq=TRUE, breaks
              xlab='Date', ylab='Total steps', main='Total Steps Taken Per Day')
 ```
 
-![](Course-project-1_files/figure-html/hist-1.png)<!-- -->
+![](figure-html/hist-1.png)<!-- -->
 
 ## 3. Mean and median number of steps taken each day:
 
@@ -35,7 +35,7 @@ mean <- mean(total_steps$steps_per_day)
 median <- median(total_steps$steps_per_day)
 ```
 
-Mean = 1.0766189\times 10^{4}  
+Mean = 1.0766189
 Median = 10765  
 
 ## 4. Time series plot of the average number of steps taken:
@@ -48,7 +48,7 @@ time <- plot(day_average, type='l', xlab='5 Minute Interval', ylab='Average step
              main='Average Steps Per Time of Day')
 ```
 
-![](RepData_PeerAssessment1/figure-html/avg-1.png)<!-- -->
+![](figure-html/avg-1.png)<!-- -->
 
 ## 5. The 5-minute interval that, on average, contains the maximum number of steps:
 
@@ -81,15 +81,15 @@ complete_hist <- hist(rep(comp_total_steps$date, comp_total_steps$steps_per_day)
              xlab='Date', ylab='Total steps', main='Total Steps Taken Per Day')
 ```
 
-![](RepData_PeerAssessment1/figure-html/completehist-1.png)<!-- -->
+![](figure-html/completehist-1.png)<!-- -->
 
 ```r
 comp_mean <- mean(comp_total_steps$steps_per_day)
 comp_median <- median(comp_total_steps$steps_per_day)
 ```
 
-Mean from complete data = 1.0766189\times 10^{4}  
-Median from complete data = 1.0766189\times 10^{4}  
+Mean from complete data = 1.0766189
+Median from complete data = 1.0766189
 
 ## 8. Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
 
@@ -108,4 +108,4 @@ weekend_plot <- plot(weekend_intervals, type='l', xlab='5 minute interval', ylab
                      main='Average Steps Per 5 Min Interval on Weekends')
 ```
 
-![](RepData_PeerAssessment1/figure-html/panel-1.png)<!-- -->
+![](figure-html/panel-1.png)<!-- -->
